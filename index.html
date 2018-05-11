@@ -12,38 +12,43 @@
   <div class="body">
     <div class="col-md-6 grey">
       <p id="right"><span class="glyphicon glyphicon-plus-sign"></span> NEW
-        <p id="PLAYER1">PLAYER1</p>
-        <br>
-        <br>
-        <br>
-        <form>
-          <label> Enter Name </label>
-          <input type="text"> </input>
-          <button> Enter </button>
-        </form>
-        <br>
-        <br>
-        <br>
-         <p id="right"><span class="glyphicon glyphicon-refresh"></span> ROLL</p>
+      <p id="PLAYER1">PLAYER1</p>
+      <br>
+      <br>
+      <br>
+      <form id="newEntry">
+        <label> Enter Name </label>
+        <input type="text" id="gamer1"> </input>
+        <button> Enter </button>
+      </form>
+      <br>
+      <br>
+      <button id="stop"><span class="glyphicon glyphicon-stop"></span>STOP</button></p>
+      <br>
+      <p id="right"><button id="roll"><span class="glyphicon glyphicon-refresh"></span>ROLL</button></p>
+      <div id="goal1"></div>
+      <div id="gamer1goal"></div>
     </div>
-
     <div class="col-md-6 white">
       <span class="tree">GAME</span></p>
-        <p id="PLAYER2">PLAYER2</P>
-          <br>
-          <br>
-          <br>
-          <div id="classify">
-          <form>
+      <p id="PLAYER2">PLAYER2</P>
+      <br>
+      <br>
+      <br>
+      <div id="classify">
+        <form>
           <label> Enter Name </label>
-          <input type="text"> </input>
+          <input type="text" id="gamer2"> </input>
           <button> Enter </button>
-        </form>
+        </form id="newEntry">
         <br>
         <br>
+        <button id="stop"><span class="glyphicon glyphicon-stop"></span>STOP</button></p>
         <br>
-        <p id="dice">DICE</p>
+        <p id="dice"><button id="roll2"><span class="glyphicon glyphicon-refresh"></span>DICE</button></p>
       </div>
+      <div id="goal2"></div>
+      <div id="gamer2goal"></div>
     </div>
   </div>
 </body>
