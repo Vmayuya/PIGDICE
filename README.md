@@ -1,5 +1,5 @@
 # PIGDICE
-#### THis is a javascript application 11 MAY 2018
+#### This is a game which is played with many rule variations.11 MAY 2018
 #### By **VICTORIA MAYUYA**
 ## Description
 Each turn, a player repeatedly rolls a die until either a 1 is rolled or the player decides to "hold":
@@ -13,7 +13,7 @@ The first player to score 100 or more points wins.
 * HTML and CSS
 
 ## Known Bugs/Updates/Corrections
-The application doesn't have any bugs. Click on this link for further news (https://github.com/Vmayuya/PIGDICE.git
+The application doesn't have any bugs. Click on this link for view of a live site https://vmayuya.github.io/PIGDICE/.
 #### This is a simple javascript application. 11 MAY 2018
 #### By **VICTORIA MAYUYA**
 ## Specifications
