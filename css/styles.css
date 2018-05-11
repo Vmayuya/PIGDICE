@@ -1,0 +1,33 @@
+body {
+  margin: 50px;
+  border: 50px;
+  background-color: rgba(128,0,0,0.5);
+}
+.body {
+  margin: inherit;
+  background-color: white;
+}
+.grey {
+  background-color: rgba(192, 192, 192, 0.3);
+  height: inherit;
+}
+.white {
+  background-color: white;
+}
+#right {
+  text-align: right;
+  font-weight: bold;
+  font-size: 25px;
+}
+.tree {
+  font-weight: bold;
+  font-size: 25px;
+}
+#PLAYER1 {
+  font-weight: bold;
+  font-size: 25px;
+}
+#PLAYER2 {
+  font-size: 25px;
+  text-align: right;
+}
